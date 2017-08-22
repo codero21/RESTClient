@@ -9,7 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: Outlets
+    
+    @IBOutlet weak var radiusField: UITextField!
+    @IBOutlet weak var serverResponseView: UITextView!
+    
+    
+    // MARK: Action Methods
+    
+    @IBAction func onDismissKeyboard(_ sender: Any) {
+    }
+    
+    @IBAction func onCalculateArea(_ sender: Any) {
+    }
+    
 
+    // MARK: Boiler Plate 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
