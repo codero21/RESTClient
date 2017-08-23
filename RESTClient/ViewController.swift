@@ -19,6 +19,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     // MARK: Action Methods
     
     @IBAction func onDismissKeyboard(_ sender: Any) {
+        radiusField.resignFirstResponder()
     }
     
     @IBAction func onCalculateArea(_ sender: Any) {
