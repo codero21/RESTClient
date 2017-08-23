@@ -29,6 +29,9 @@
                                     <constraint firstAttribute="width" constant="176" id="hQR-O0-70z"/>
                                 </constraints>
                                 <state key="normal" title="Compute Area of Circle"/>
+                                <connections>
+                                    <action selector="onCalculateArea:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uqu-ZX-bqJ"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Radius" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vtx-nk-bar">
                                 <rect key="frame" x="16" y="40" width="343" height="30"/>
